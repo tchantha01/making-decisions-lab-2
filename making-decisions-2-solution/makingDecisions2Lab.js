@@ -8,85 +8,83 @@ var arr = [10,20,30,40,50,60]
 
 //Code Here
 
-// let firstItem = arr[0]
-// console.log(firstItem)
+let firstItem = arr[0]
 
-// ////////// PROBLEM 2 //////////
-// /*
-//   Remove the last item from the 'arr' array and store it in a variable named 'lastItemRemoved'. Console.log the array to verify you no longer have the last item.
-// */
 
-// //Code Here
+////////// PROBLEM 2 //////////
+/*
+  Remove the last item from the 'arr' array and store it in a variable named 'lastItemRemoved'. Console.log the array to verify you no longer have the last item.
+*/
 
-// let lastItemRemoved = arr.pop()
-// console.log(lastItemRemoved)
+//Code Here
+
+let letItemRemoved = arr.pop()
+
+console.log(arr)
+
 ////////// PROBLEM 3 //////////
 
 // Do not edit the code below.
-// var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
-// // Do not edit the code above.
+var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
+// Do not edit the code above.
 
-// /*
-//   Loop through the 'family' array and console.log every item.
-// */
+/*
+  Loop through the 'family' array and console.log every item.
+*/
 
-// //Code Here
+//Code Here
 
-// for(let i = 0; i < family.length; i++){
-//   console.log(family[i])
-// }
+for (let i = 0; i < family.length; i++) {
+  console.log(family[i])
+}
+
+
 
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
-// var nums = [1,2,3,6,22,98,45,23,22,12];
-// let evensArr = []
-// // Do not edit the code above.
+var nums = [1,2,3,6,22,98,45,23,22,12];
+let evensArr = []
+// Do not edit the code above.
 
-// /*
-//   Use a for-loop to iterate through each number in the 'nums' array, if the number is even, append it to the 'evensArr'.
-// */
+/*
+  Use a for-loop to iterate through each number in the 'nums' array, if the number is even, append it to the 'evensArr'.
+*/
 
-// //Code Here
+//Code Here
 
-// for( let i = 0; i < nums.length; i++){
-//  if (nums[i] % 2 === 0)
-//  evensArr.push(nums[i])
-// }
-//   console.log(evensArr)
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] % 2 === 0) {
+    evensArr.push(nums[i])
+  }
+}
 
-
+console.log(evensArr)
 
 
 ////////// PROBLEM 5 //////////
 
 // Do not edit the code below.
-// var score = 74
-// // Do not edit the code above.
+var score = 84
+// Do not edit the code above.
 
-// /*
-//   Determine if the letter grade of the given variable 'score'. If the variable is a 90 or above, console log an 'A', between 80 and 89, console log a 'B', between 70 and 79, 'C', between 60 and 69, 'D', and anything below 60 should console log an 'F'.
-// */
+/*
+  Determine if the letter grade of the given variable 'score'. If the variable is a 90 or above, console log an 'A', between 80 and 89, console log a 'B', between 70 and 79, 'C', between 60 and 69, 'D', and anything below 60 should console log an 'F'.
+*/
 
-// //Code Here
+//Code Here
 
-// if(score >= 90){
-//   console.log('A')
-// }else if(score > 80 && score < 89){
-//   console.log('B')
-// }else if(score > 70 && score < 79){
-//   console.log('C')
-// }else if(score > 60 && score < 69){
-//   console.log('D')
-// }else{
-//   console.log('F')
-// } 
-  
-
-  
-
-
-
+if (score >= 90) {
+  console.log('A')
+} else if (score >= 80) {
+  console.log('B')
+} else if (score >= 70) {
+  console.log('C')
+} else if (score >= 60) {
+  console.log('D')
+} else {
+  console.log('F')
+}
 
 
 ////////// Intermediate Problems //////////
@@ -94,7 +92,7 @@ var arr = [10,20,30,40,50,60]
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24,28];
+var myFavoriteNumbers = [4,8,12,16,20,24];
 // Do not edit the code above.
 
 /*
@@ -102,8 +100,9 @@ var myFavoriteNumbers = [4,8,12,16,20,24,28];
 */
 
 //Code Here
-// let someNum = myFavoriteNumbers[4]
-// console.log(someNum)
+
+let someNum = myFavoriteNumbers[4]
+
 
 ////////// PROBLEM 7 //////////
 
@@ -112,12 +111,11 @@ var myFavoriteNumbers = [4,8,12,16,20,24,28];
 
 //Code Here
 
-// if(myFavoriteNumbers.length < 7){
-//   console.log('There are not enough elements in this array')
-// }else {
-// someNum = myFavoriteNumbers[6]
-// }
-
+if (myFavoriteNumbers.length < 7) {
+  console.log('There are not enough elements in this array')
+} else {
+  someNum = myFavoriteNumbers[6]
+}
 
 ////////// PROBLEM 8 //////////
 
@@ -129,11 +127,11 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 
 //Code Here
 
-// for(let i = 0; i < listOfNumbers.length; i++){
-//   if(listOfNumbers[i] % 3 === 0){
-//     console.log(`${listOfNumbers[i]} is divisible by 3`)
-//   }
-// }
+for (let i = 0; i < listOfNumbers.length; i++) {
+  if (listOfNumbers[i] % 3 === 0) {
+    console.log(`${listOfNumbers[i]} is divisible by 3.`)
+  }
+}
 
 ////////// PROBLEM 9 //////////
 // Do not edit the code below.
@@ -146,11 +144,9 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
 //Code Here
 
-// for(let i = letters.length - 1; i >= 0; i--){
-// console.log(letters[i])
-// }
-  
-
+for (let i = letters.length - 1; i >= 0; i--) {
+  console.log(letters[i])
+}
 
 
 ////////// Advanced Problems //////////
@@ -169,31 +165,20 @@ If B: "The student is doing well."
 If C: "The student is doing alright."
 If D: "The student is not doing very well."
 If F: "The student is failing."
-If the letter grade is not one of the above letters, console.log '.Not an eligible grade'
+If the letter grade is not one of the above letters, console.log 'Not an eligible grade.'
 */
 
 //Code Here
 
-switch(letterGrade){
-  case 'A':
-    console.log('The student is doing excellently.')
-    break
-  case 'B':
-    console.log('The student is doing well.')
-    break
-  case 'C':
-    console.log('The student is doing alright.') 
-    break
-  case 'D':
-    console.log('The student is not doing very well') 
-    break
-  case 'F':
-    console.log('The student is failing.')  
-    break
-  default:
-    console.log('Not an eligible grade.')    
-
+switch (letterGrade) {
+  case A: console.log('The student is doing excellently.')
+  case B: console.log('The student is doing well.')
+  case C: console.log('The student is doing alright.')
+  case D: console.log('The student is not doing very well.')
+  case F: console.log('The student is failing.')
+  default: console.log('Not an eligible grade.')
 }
+
 
 
 ////////// PROBLEM 11 //////////
@@ -221,15 +206,15 @@ switch(letterGrade){
 */
 
 //Code Here
- for(let i = 1; i < 100; i++){
-  if(i % 3 === 0 && i % 5 === 0 ){
-    console.log('DevMountain')
-  }else if(i % 3 === 0){
-    console.log('Dev')
-  }else if(i % 5 === 0){
-    console.log('Mountain')
 
-  }else{
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log('Devmountain')
+  } else if (i % 5 === 0) {
+    console.log('mountain')
+  } else if (i % 3 === 0) {
+    console.log('Dev')
+  } else {
     console.log(i)
   }
- }
+}
